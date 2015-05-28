@@ -9,7 +9,7 @@
 #define METERS_PER_MILE 1609.344
 
 #import "LocationViewController.h"
-#import <MapKit/MapKit.h>
+//#import <MapKit/MapKit.h>
 
 @interface LocationViewController ()<MKMapViewDelegate, CLLocationManagerDelegate>
 @property (weak, nonatomic) IBOutlet MKMapView *map;

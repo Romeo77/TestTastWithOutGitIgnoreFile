@@ -1,0 +1,27 @@
+PODS:
+  - MDMCoreData (1.5.0):
+    - MDMCoreData/MDMCoreDataCore (= 1.5.0)
+    - MDMCoreData/MDMFetchedResultsCollectionDataSource (= 1.5.0)
+    - MDMCoreData/MDMFetchedResultsTableDataSource (= 1.5.0)
+    - MDMCoreData/MDMPersistenceController (= 1.5.0)
+    - MDMCoreData/NSManagedObject+MDMCoreDataAdditions (= 1.5.0)
+  - MDMCoreData/MDMCoreDataCore (1.5.0)
+  - MDMCoreData/MDMFetchedResultsCollectionDataSource (1.5.0):
+    - MDMCoreData/MDMCoreDataCore
+  - MDMCoreData/MDMFetchedResultsTableDataSource (1.5.0):
+    - MDMCoreData/MDMCoreDataCore
+  - MDMCoreData/MDMPersistenceController (1.5.0):
+    - MDMCoreData/MDMCoreDataCore
+  - MDMCoreData/NSManagedObject+MDMCoreDataAdditions (1.5.0):
+    - MDMCoreData/MDMCoreDataCore
+  - SVProgressHUD (1.1.3)
+
+DEPENDENCIES:
+  - MDMCoreData (~> 1.3)
+  - SVProgressHUD (~> 1.1)
+
+SPEC CHECKSUMS:
+  MDMCoreData: 402f754cda90865026a209243f1667824e775649
+  SVProgressHUD: 748080e4f36e603f6c02aec292664239df5279c1
+
+COCOAPODS: 0.35.0
